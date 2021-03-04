@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    font-size: 18px;
+    color: white;
+}
+
+/**HEADER**/
+header {
+    margin: 70px 190px 0px 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading, p {
+    margin: 0px;
+}
+
+/**SIDERBAR**/
+.countries {
+    margin: 10px 140px 100px 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: solid 5px white;
+}
+
+.countries>div {
+    width: 25%
+}
+
+div {
+    margin: 5px;
+}
+
+/**FOOTER**/
+footer p {
+    text-align: center;
+    margin: 10px;
+}
